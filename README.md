@@ -2,9 +2,12 @@
 This was a workshop conducted for IEEE gst ,Focuses on the understanding the core principles of machine learning, and recogninzing 0-9 hand written notes through a datatset through a fully connected Neural Network.
 
 Lets start with computing output of a single neuron. the formula goes as:
+
 $$ \text{neuron output} = \mathbf{input} \cdot \mathbf{weight} + bias $$
+
 Now, lets compute multiple neurons at once, also known as a layer of neurons.
 $$ \text{output} = \sum_{i=0}^{n} (\text{input}_i \cdot \text{weight}_i) + \text{biases} $$
+
 Here input and weight are arrays of float values of which dot product is calculated.
 ## ReLU Activation Function.
 $$ \text{ReLU}(x) = \max(0, x) $$
