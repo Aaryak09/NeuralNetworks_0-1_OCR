@@ -1,6 +1,5 @@
 # NeuralNetworks_0-1_OCR
 This was a workshop conducted for IEEE gst ,Focuses on the understanding the core principles of machine learning, and recogninzing 0-9 hand written notes through a datatset through a fully connected Neural Network.
-# neural-networks_0-1_0-1
 
 ## Lets start with computing output of a single neuron. the formula goes as:
 
@@ -44,4 +43,4 @@ $$m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $$
 
 ### Update the parameters $θ$:
 $$\theta_t = \theta_{t-1} - \frac{\alpha \cdot \hat{v}_t}{\sqrt{\hat{m}_t} + \epsilon}$$
-
+@Adityadikonda10
