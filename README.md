@@ -43,4 +43,4 @@ $$m_t = \beta_1 \cdot m_{t-1} + (1 - \beta_1) \cdot g_t $$
 
 ### Update the parameters $θ$:
 $$\theta_t = \theta_{t-1} - \frac{\alpha \cdot \hat{v}_t}{\sqrt{\hat{m}_t} + \epsilon}$$
-@Adityadikonda10
+[Adityadikonda](https://github.com/Adityadikonda10)
